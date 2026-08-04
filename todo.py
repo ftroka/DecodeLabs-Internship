@@ -30,7 +30,7 @@ def view_tasks():
     print("\n========== YOUR TASKS ==========")
 
     for task in tasks:
-        status = "✓" if task["completed"] else " "
+        status = "Completed" if task["completed"] else "Pending"
         print(f'ID: {task["id"]} | [{status}] {task["title"]}')
 
     print(f"\nTotal Tasks: {len(tasks)}")
