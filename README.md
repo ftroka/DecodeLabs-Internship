@@ -1,6 +1,6 @@
 # Python To-Do List
 
-This is Project 1 for my DecodeLabs Python Internship.
+Project 1 for the DecodeLabs Python Internship.
 
 ## Features
 - Add tasks
@@ -8,7 +8,13 @@ This is Project 1 for my DecodeLabs Python Internship.
 - Delete tasks
 - Mark tasks as completed
 - Clear all tasks
-- Input validation
+- Input validation using try/except
 
-## Technologies
+## Technologies Used
 - Python 3
+
+## How to Run
+
+```bash
+python todo.py
+```
